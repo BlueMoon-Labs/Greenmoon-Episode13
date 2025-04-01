@@ -1,7 +1,7 @@
 /proc/check_whitelist(key)
 	if(!SSdbcore.Connect())
 		log_world("Failed to connect to database in check_whitelist(). Disabling whitelist for current round.")
-		WRITE_FILE(GLOB.world_game_log, "Failed to connect to database in check_whitelist(). Disabling whitelist for current round.")
+		log_game("Failed to connect to database in check_whitelist(). Disabling whitelist for current round.")
 		CONFIG_SET(flag/usewhitelist, FALSE)
 		return TRUE
 
