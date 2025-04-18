@@ -24,7 +24,7 @@
 	ambient_buzz_vol = 30
 
 	uses_daylight = TRUE
-	daylight_multiplier = 0.2
+	daylight_multiplier = 0.1
 
 	first_time_text = "City Streets"
 
@@ -32,20 +32,20 @@
 
 /area/halflife/outdoors/roofs
 	name = "\improper Rooftops"
-	daylight_multiplier = 0.25
+	daylight_multiplier = 0.15
 
 	first_time_text = "City Upper Levels"
 
 /area/halflife/outdoors/tracks
 	name = "\improper City Train Tracks"
-	daylight_multiplier = 0.25
+	daylight_multiplier = 0.15
 
 	first_time_text = "City Train Tracks"
 
 /area/halflife/outdoors/sewage_dump
 	name = "\improper Sewage Dump"
 	ambient_buzz = 'hl13/sound/ambience/toxic_ambience.ogg'
-	daylight_multiplier = 0.3
+	daylight_multiplier = 0.1
 
 /area/halflife/outdoors/plaza
 	name = "\improper Plaza"

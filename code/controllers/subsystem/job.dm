@@ -92,7 +92,7 @@ SUBSYSTEM_DEF(job)
 		setup_occupations()
 	if(CONFIG_GET(flag/load_jobs_from_txt))
 		load_jobs_from_config()
-	set_overflow_role(CONFIG_GET(string/overflow_job)) // this must always go after load_jobs_from_config() due to how the legacy systems operate, this always takes precedent.
+//	set_overflow_role(CONFIG_GET(string/overflow_job)) // this must always go after load_jobs_from_config() due to how the legacy systems operate, this always takes precedent.
 	return SS_INIT_SUCCESS
 
 /// Returns a list of jobs that we are allowed to fuck with during random events
@@ -320,7 +320,7 @@ SUBSYSTEM_DEF(job)
 	if(CONFIG_GET(flag/load_jobs_from_txt))
 		// Any errors with the configs has already been said, we don't need to repeat them here.
 		load_jobs_from_config(silent = TRUE)
-	set_overflow_role(overflow_role)
+//	set_overflow_role(overflow_role)
 	return
 
 

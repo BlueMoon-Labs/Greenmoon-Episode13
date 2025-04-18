@@ -1,0 +1,96 @@
+{
+	"version": 1,
+	"map_name": "City 13 Central District (Greenmoon, Ruined, Event)",
+	"map_path": "map_files/city13_central_ruined",
+	"map_file": "city13_central_ruined.dmm",
+	"space_ruin_levels": 0,
+	"space_empty_levels": 0,
+	"planetary": 1,
+	"shuttles": {
+		"cargo": "cargo_box",
+		"ferry": "ferry_fancy",
+		"whiteship": "whiteship_meta",
+		"emergency": "emergency_box",
+		"arrival": "none"
+	},
+	"traits": [
+		{
+			"Baseturf": "/turf/open/floor/plating/ground/rockunder",
+			"Gravity": true,
+			"No Parallax": true,
+			"Linkage": null
+
+		},
+		{
+			"Baseturf": "/turf/open/openspace",
+			"Gravity": true,
+			"No Parallax": true,
+			"Weather_Rainstorm": true,
+			"Linkage": null
+		},
+		{
+			"Baseturf": "/turf/open/openspace",
+			"Gravity": true,
+			"No Parallax": true,
+			"Weather_Rainstorm": true,
+			"Linkage": null
+		}
+	],
+	"minetype": "none",
+	"job_changes": {
+		"Civil Protection Officer": {
+			"total_positions": 999
+		},
+		"District Administrator": {
+			"total_positions": 0
+		},
+		"Citizen": {
+			"total_positions": 0
+		},
+		"Infestation Control": {
+			"total_positions": 0
+		},
+		"Union Engineer": {
+			"total_positions": 0
+		},
+		"Union Scientist": {
+			"total_positions": 0
+		},
+		"Refugee": {
+			"total_positions": 0
+		},
+		"Union Doctor": {
+			"total_positions": 2
+		},
+		"Labor Lead": {
+			"total_positions": 0
+		},
+		"Bartender": {
+			"total_positions": 0
+		},
+		"Botanist": {
+			"total_positions": 0
+		},
+		"Clerk": {
+			"total_positions": 0
+		},
+		"Cook": {
+			"total_positions": 0
+		},
+		"District Liaison": {
+			"total_positions": 0
+		},
+		"Vortigaunt Slave": {
+			"total_positions": 0
+		},
+		"Union Foreman": {
+			"total_positions": 0
+		},
+		"Union Miner": {
+			"total_positions": 0
+		},
+		"Union Worker": {
+			"total_positions": 0
+		}
+	}
+}
