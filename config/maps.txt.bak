@@ -18,11 +18,6 @@ endmap
 map city13_central
 	minplayers 0
 	votable
-endmap
-
-map city13_industrial
-	minplayers 0
-	votable
 	default
 endmap
 
@@ -41,4 +36,7 @@ map runtimestation
 endmap
 
 map city13_central_ruined
+	minplayers 0
+	votable
+	default
 endmap

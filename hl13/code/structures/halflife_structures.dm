@@ -136,6 +136,10 @@
 	max_integrity = 2000
 	resistance_flags = INDESTRUCTIBLE
 
+/obj/machinery/power/halflife/streetlamphalt/off
+	light_range = 0
+	light_power = 0
+
 /obj/machinery/power/halflife/streetlamphalt/CanAllowThrough(atom/movable/mover, turf/target)
 	. = ..()
 	if(locate(/obj/machinery/power/halflife/streetlamphalt) in get_turf(mover))

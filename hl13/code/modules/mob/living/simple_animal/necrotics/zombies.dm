@@ -31,13 +31,14 @@
 	var/no_crab_state = "zombie_dead_nocrab"
 	var/crabless_possible = TRUE
 	var/headcrabspawn = /mob/living/basic/halflife/headcrab
-	var/idle_sound_chance = 20
+	var/idle_sound_chance = 1
 	var/sound_vary = TRUE
 	var/fungalheal = FALSE
 	var/aggro_sound = 'hl13/sound/creatures/zombieaggro.ogg'
 	var/idle_sounds = list('hl13/sound/creatures/zombiesound.ogg', 'hl13/sound/creatures/zombiesound2.ogg', 'hl13/sound/creatures/zombiesound3.ogg')
 
 	cmode_music = 'hl13/sound/music/combat/disrupted.ogg' //spooky!
+	wander = 1
 
 /mob/living/simple_animal/hostile/halflife/zombie/Aggro()
 	. = ..()

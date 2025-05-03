@@ -39,6 +39,10 @@
 
 	ration_bonus = 1
 
+/datum/job/doctor/after_spawn(mob/living/carbon/human/H, mob/M)
+	. = ..()
+	H.faction += "combine"
+
 /datum/outfit/job/doctor
 	name = "Medical Doctor"
 	jobtype = /datum/job/doctor
